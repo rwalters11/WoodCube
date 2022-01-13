@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D30CF8C02790589B00BA0A48 /* BaseShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = D30CF8BF2790589B00BA0A48 /* BaseShape.swift */; };
+		D30CF8C227905B2300BA0A48 /* SingleBlock.swift in Sources */ = {isa = PBXBuildFile; fileRef = D30CF8C127905B2300BA0A48 /* SingleBlock.swift */; };
+		D30CF8C427905B7600BA0A48 /* PairBlock.swift in Sources */ = {isa = PBXBuildFile; fileRef = D30CF8C327905B7600BA0A48 /* PairBlock.swift */; };
+		D30CF8C627905BC400BA0A48 /* L3Block.swift in Sources */ = {isa = PBXBuildFile; fileRef = D30CF8C527905BC400BA0A48 /* L3Block.swift */; };
+		D30CF8C827906C6100BA0A48 /* L5Block.swift in Sources */ = {isa = PBXBuildFile; fileRef = D30CF8C727906C6100BA0A48 /* L5Block.swift */; };
+		D30CF8CA27906CA500BA0A48 /* FiveBlock.swift in Sources */ = {isa = PBXBuildFile; fileRef = D30CF8C927906CA500BA0A48 /* FiveBlock.swift */; };
+		D30CF8CC27906CE600BA0A48 /* ThreeBlock.swift in Sources */ = {isa = PBXBuildFile; fileRef = D30CF8CB27906CE600BA0A48 /* ThreeBlock.swift */; };
+		D30CF8CE27906D5500BA0A48 /* Cube4Block.swift in Sources */ = {isa = PBXBuildFile; fileRef = D30CF8CD27906D5500BA0A48 /* Cube4Block.swift */; };
+		D30CF8D027906D8700BA0A48 /* Cube9Block.swift in Sources */ = {isa = PBXBuildFile; fileRef = D30CF8CF27906D8700BA0A48 /* Cube9Block.swift */; };
 		D37602B327889ABE00DD8EAC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D37602B227889ABE00DD8EAC /* AppDelegate.swift */; };
 		D37602B727889ABE00DD8EAC /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = D37602B627889ABE00DD8EAC /* Actions.sks */; };
 		D37602B927889ABE00DD8EAC /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = D37602B827889ABE00DD8EAC /* GameScene.swift */; };
@@ -17,6 +26,15 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D30CF8BF2790589B00BA0A48 /* BaseShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseShape.swift; sourceTree = "<group>"; };
+		D30CF8C127905B2300BA0A48 /* SingleBlock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleBlock.swift; sourceTree = "<group>"; };
+		D30CF8C327905B7600BA0A48 /* PairBlock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PairBlock.swift; sourceTree = "<group>"; };
+		D30CF8C527905BC400BA0A48 /* L3Block.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = L3Block.swift; sourceTree = "<group>"; };
+		D30CF8C727906C6100BA0A48 /* L5Block.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = L5Block.swift; sourceTree = "<group>"; };
+		D30CF8C927906CA500BA0A48 /* FiveBlock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FiveBlock.swift; sourceTree = "<group>"; };
+		D30CF8CB27906CE600BA0A48 /* ThreeBlock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreeBlock.swift; sourceTree = "<group>"; };
+		D30CF8CD27906D5500BA0A48 /* Cube4Block.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cube4Block.swift; sourceTree = "<group>"; };
+		D30CF8CF27906D8700BA0A48 /* Cube9Block.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cube9Block.swift; sourceTree = "<group>"; };
 		D37602AF27889ABE00DD8EAC /* WoodCube.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WoodCube.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D37602B227889ABE00DD8EAC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D37602B627889ABE00DD8EAC /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
@@ -64,6 +82,15 @@
 				D37602BC27889ABE00DD8EAC /* Main.storyboard */,
 				D37602BF27889AC000DD8EAC /* Assets.xcassets */,
 				D37602C127889AC000DD8EAC /* LaunchScreen.storyboard */,
+				D30CF8BF2790589B00BA0A48 /* BaseShape.swift */,
+				D30CF8C127905B2300BA0A48 /* SingleBlock.swift */,
+				D30CF8C327905B7600BA0A48 /* PairBlock.swift */,
+				D30CF8C527905BC400BA0A48 /* L3Block.swift */,
+				D30CF8C727906C6100BA0A48 /* L5Block.swift */,
+				D30CF8C927906CA500BA0A48 /* FiveBlock.swift */,
+				D30CF8CB27906CE600BA0A48 /* ThreeBlock.swift */,
+				D30CF8CD27906D5500BA0A48 /* Cube4Block.swift */,
+				D30CF8CF27906D8700BA0A48 /* Cube9Block.swift */,
 			);
 			path = WoodCube;
 			sourceTree = "<group>";
@@ -140,8 +167,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D30CF8CA27906CA500BA0A48 /* FiveBlock.swift in Sources */,
 				D37602B927889ABE00DD8EAC /* GameScene.swift in Sources */,
+				D30CF8D027906D8700BA0A48 /* Cube9Block.swift in Sources */,
+				D30CF8C227905B2300BA0A48 /* SingleBlock.swift in Sources */,
 				D37602BB27889ABE00DD8EAC /* GameViewController.swift in Sources */,
+				D30CF8CE27906D5500BA0A48 /* Cube4Block.swift in Sources */,
+				D30CF8CC27906CE600BA0A48 /* ThreeBlock.swift in Sources */,
+				D30CF8C627905BC400BA0A48 /* L3Block.swift in Sources */,
+				D30CF8C827906C6100BA0A48 /* L5Block.swift in Sources */,
+				D30CF8C427905B7600BA0A48 /* PairBlock.swift in Sources */,
+				D30CF8C02790589B00BA0A48 /* BaseShape.swift in Sources */,
 				D37602B327889ABE00DD8EAC /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -294,7 +330,7 @@
 				DEVELOPMENT_TEAM = TT43E74VM4;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = Main;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UIRequiresFullScreen = NO;
 				INFOPLIST_KEY_UIStatusBarHidden = YES;
@@ -324,7 +360,7 @@
 				DEVELOPMENT_TEAM = TT43E74VM4;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = Main;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UIRequiresFullScreen = NO;
 				INFOPLIST_KEY_UIStatusBarHidden = YES;
