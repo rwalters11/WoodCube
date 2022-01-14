@@ -1,5 +1,5 @@
 //
-//  Cube4Block.swift
+//  1Block.swift
 //  WoodCube
 //
 //  Created by Richard Walters on 13/01/2022.
@@ -10,26 +10,25 @@ import SpriteKit
 
 /*
  
- | 0  | 1 |
- | 2• | 3 |
+ | 0• |
  
  • marks the row/column indicator for the shape
  
  */
 
-// The cube4 shape will not rotate
+// The single shape will not rotate
 
-class BlockCube4: Blocks {
+class Block1: Blocks {
     
     // The number of blocks in the shape
     
-    var numBlocks: Int = 4
-    // 
+    var numBlocks: Int = 1
+    
     override var blockRowColumnPositions: [Orientation : Array<(rowOffset: Int, columnOffset: Int)>] {
         
         return [
             
-            Orientation.Zero: [(0,0), (1,0), (0,1), (1,1)]
+            Orientation.Zero: [(0,0)]
         ]
     }
 }

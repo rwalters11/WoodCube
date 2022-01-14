@@ -1,5 +1,5 @@
 //
-//  L5Block.swift
+//  FiveBlock.swift
 //  WoodCube
 //
 //  Created by Richard Walters on 13/01/2022.
@@ -9,38 +9,25 @@ import Foundation
 import SpriteKit
 
 /*
+    Orientations 0 and 180:
 
-Orientation 0
- 
-    | 0  |
-    | 1  |
-    | 2• | 3 | 4 |
-
-Orientation 90
-
-| 2• | 1 | 0 |
-| 3  |
-| 4  |
-
-Orientation 180
-
-| 4 | 3 | 2•|
+        | 0•|
         | 1 |
-        | 0 |
-
-Orientation 270
-
-        | 4 |
+        | 2 |
         | 3 |
-| 0 | 1 | 2•|
+        | 4 |
+
+    Orientations 90 and 270:
+
+    | 0 | 1•| 2 | 3 | 4 |
 
 • marks the row/column indicator for the shape
 
-Pivots about `2`
-
 */
 
-class BlockL5: Blocks {
+// Hinges about the second block
+
+class Block5: Blocks {
     
     // The number of blocks in the shape
     
@@ -48,8 +35,8 @@ class BlockL5: Blocks {
     
     override var blockRowColumnPositions: [Orientation: Array<(rowOffset: Int, columnOffset: Int)>] {
         return [
-            Orientation.Zero:       [(0, 0), (0, 1), (0, 2), (1, 0), (2, 0)],
-            Orientation.Ninety:     [(0, 0), (0, 1), (0, 2), (-1, 0), (-2, 0)],
+            Orientation.Zero:       [(0, 0), (0, -1), (0, -2), (0, -3), (0, -4)],
+            Orientation.Ninety:     [(-1,0), (0, 0), (1, 0), (2, 0), (3, 0)],
             Orientation.OneEighty:  [(0, 0), (0, -1), (0, -2), (0, -3), (0, -4)],
             Orientation.TwoSeventy: [(-1,0), (0, 0), (1, 0), (2, 0), (3, 0)]
         ]
