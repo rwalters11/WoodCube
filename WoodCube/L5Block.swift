@@ -46,7 +46,7 @@ class BlockL5: Blocks {
     
     var numBlocks: Int = 5
     
-    override var blockRowColumnPositions: [Orientation: Array<(rowOffset: Int, columnOffset: Int)>] {
+    override var blockPattern: [Orientation : Array<(column: Int, row: Int)>] {
         return [
             Orientation.Zero:       [(0, 0), (0, 1), (0, 2), (1, 0), (2, 0)],
             Orientation.Ninety:     [(0, 0), (0, 1), (0, 2), (-1, 0), (-2, 0)],

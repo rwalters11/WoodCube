@@ -26,7 +26,7 @@ class BlockCube9: Blocks {
     
     var numBlocks: Int = 9
     
-    override var blockRowColumnPositions: [Orientation : Array<(rowOffset: Int, columnOffset: Int)>] {
+    override var blockPattern: [Orientation : Array<(column: Int, row: Int)>] {
         
         return [
             

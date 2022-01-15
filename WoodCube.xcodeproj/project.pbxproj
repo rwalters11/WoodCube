@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D3042FE82791FE7D000FC99C /* BlockShapePreviewPanel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3042FE72791FE7D000FC99C /* BlockShapePreviewPanel.swift */; };
+		D3042FEA27920128000FC99C /* GameGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3042FE927920128000FC99C /* GameGrid.swift */; };
 		D30CF8C227905B2300BA0A48 /* 1Block.swift in Sources */ = {isa = PBXBuildFile; fileRef = D30CF8C127905B2300BA0A48 /* 1Block.swift */; };
 		D30CF8C427905B7600BA0A48 /* 2Block.swift in Sources */ = {isa = PBXBuildFile; fileRef = D30CF8C327905B7600BA0A48 /* 2Block.swift */; };
 		D30CF8C627905BC400BA0A48 /* L3Block.swift in Sources */ = {isa = PBXBuildFile; fileRef = D30CF8C527905BC400BA0A48 /* L3Block.swift */; };
@@ -28,6 +30,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D3042FE72791FE7D000FC99C /* BlockShapePreviewPanel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlockShapePreviewPanel.swift; sourceTree = "<group>"; };
+		D3042FE927920128000FC99C /* GameGrid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameGrid.swift; sourceTree = "<group>"; };
 		D30CF8C127905B2300BA0A48 /* 1Block.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1Block.swift; sourceTree = "<group>"; };
 		D30CF8C327905B7600BA0A48 /* 2Block.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 2Block.swift; sourceTree = "<group>"; };
 		D30CF8C527905BC400BA0A48 /* L3Block.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = L3Block.swift; sourceTree = "<group>"; };
@@ -97,6 +101,8 @@
 				D30CF8C727906C6100BA0A48 /* L5Block.swift */,
 				D37602C127889AC000DD8EAC /* LaunchScreen.storyboard */,
 				D37602BC27889ABE00DD8EAC /* Main.storyboard */,
+				D3042FE72791FE7D000FC99C /* BlockShapePreviewPanel.swift */,
+				D3042FE927920128000FC99C /* GameGrid.swift */,
 			);
 			path = WoodCube;
 			sourceTree = "<group>";
@@ -179,8 +185,10 @@
 				D30CF8D027906D8700BA0A48 /* Cube9Block.swift in Sources */,
 				D30CF8C227905B2300BA0A48 /* 1Block.swift in Sources */,
 				D37602BB27889ABE00DD8EAC /* GameViewController.swift in Sources */,
+				D3042FE82791FE7D000FC99C /* BlockShapePreviewPanel.swift in Sources */,
 				D30CF8D42790769900BA0A48 /* Blocks.swift in Sources */,
 				D30CF8D627907F4A00BA0A48 /* 4Block.swift in Sources */,
+				D3042FEA27920128000FC99C /* GameGrid.swift in Sources */,
 				D30CF8CE27906D5500BA0A48 /* Cube4Block.swift in Sources */,
 				D30CF8CC27906CE600BA0A48 /* 3Block.swift in Sources */,
 				D30CF8C627905BC400BA0A48 /* L3Block.swift in Sources */,

@@ -28,7 +28,8 @@ class GameViewController: UIViewController {
         // Create and configure the scene.
         
         // Using fixed dimensions as it seems the only way to fill the device screen
-        let scene = GameScene(size: CGSize(width: 320, height: 658))
+        //let scene = GameScene(size: CGSize(width: 320, height: 658))
+        let scene = GameScene(size: CGSize(width: displaySize.width, height: displaySize.height))
         
         scene.scaleMode = .aspectFill
 
