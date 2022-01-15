@@ -13,11 +13,13 @@ class GameScene: SKScene {
     override func didMove(to view: SKView) {
         
         // Create and position background
-        let background = SKSpriteNode(imageNamed: "background1")
+        let background = SKSpriteNode(imageNamed: "background2")
 
+        //background.size = UIScreen.main.bounds.size
         background.position = CGPoint(x: size.width/2, y: size.height/2)
         background.anchorPoint = CGPoint(x: 0.5, y: 0.5)
         background.zPosition = -1
+        //background.scale(to: UIScreen.main.bounds.size)
         
         // Add background child node to scene
         addChild(background)

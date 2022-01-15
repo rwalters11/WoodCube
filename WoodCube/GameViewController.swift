@@ -25,15 +25,10 @@ class GameViewController: UIViewController {
         skView.ignoresSiblingOrder = true
         
         
-        // Create and configure the scene.
         
-        // Using fixed dimensions as it seems the only way to fill the device screen
-        //let scene = GameScene(size: CGSize(width: 320, height: 658))
-        let scene = GameScene(size: CGSize(width: displaySize.width, height: displaySize.height))
-        
+        // Create and configure the background scene.
+        let scene = GameScene(size: UIScreen.main.bounds.size)
         scene.scaleMode = .aspectFill
-
-        
         
         // Present the scene.
         
