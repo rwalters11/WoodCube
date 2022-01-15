@@ -31,7 +31,7 @@ class Block3: Blocks {
     
     var numBlocks: Int = 3
     
-    override var blockRowColumnPositions: [Orientation: Array<(rowOffset: Int, columnOffset: Int)>] {
+    override var blockPattern: [Orientation : Array<(column: Int, row: Int)>] {
         return [
             Orientation.Zero:       [(0, 0), (0, -1), (0, -2)],
             Orientation.Ninety:     [(-1,0), (0, 0), (1, 0)],

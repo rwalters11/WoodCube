@@ -25,7 +25,7 @@ class BlockCube4: Blocks {
     
     var numBlocks: Int = 4
     // 
-    override var blockRowColumnPositions: [Orientation : Array<(rowOffset: Int, columnOffset: Int)>] {
+    override var blockPattern: [Orientation : Array<(column: Int, row: Int)>] {
         
         return [
             

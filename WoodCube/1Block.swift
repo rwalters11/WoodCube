@@ -24,7 +24,7 @@ class Block1: Blocks {
     
     var numBlocks: Int = 1
     
-    override var blockRowColumnPositions: [Orientation : Array<(rowOffset: Int, columnOffset: Int)>] {
+    override var blockPattern: [Orientation : Array<(column: Int, row: Int)>] {
         
         return [
             
