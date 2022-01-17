@@ -41,12 +41,11 @@ class BlockShapePreviewPanel: Panel {
     
     // Constants
     
+    let bspPanel: CGSize = CGSize(width: 75, height: 75)
+    
     let pnlPosition: PanelPosition          // Left, Right or Centre
-    let pnlSize: CGFloat = 75
-    let pnlCornerRadius: CGFloat = 5
-    let pnlBorderLineWidth: CGFloat = 2
+
     var pnlSeparation: CGFloat = 0
-    let pnlBaseHeight: CGFloat = 20
     
     init (position: PanelPosition) {
         
@@ -54,15 +53,16 @@ class BlockShapePreviewPanel: Panel {
        
     
         // Base class init
-        super.init()
+        super.init(panel: bspPanel)
         
-        self.pnlSeparation = (common.displayWidth - (pnlSize * 3))/4
-        self.path = UIBezierPath(roundedRect: CGRect(x: 0, y: 0, width: pnlSize, height: pnlSize), cornerRadius: pnlCornerRadius).cgPath
+        self.pnlSeparation = (common.displayWidth - (self.pnlSize.width * 3))/4
+        self.path = UIBezierPath(roundedRect: CGRect(x: 0, y: 0, width: self.pnlSize.width, height: self.pnlSize.height), cornerRadius: pnlCornerRadius).cgPath
         self.fillColor = UIColor.red
         self.strokeColor = UIColor.black
         self.lineWidth = pnlBorderLineWidth
         // Layer
         self.zPosition = 1
+        self.pnlBaseHeight = 20
         
         positionPanel()
         

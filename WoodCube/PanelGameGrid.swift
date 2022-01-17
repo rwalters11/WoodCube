@@ -12,9 +12,20 @@ import SpriteKit
 class GameGrid: Panel {
     
     //Constants
-    let pnlSize: CGFloat = 75
-    let pnlCornerRadius: CGFloat = 5
-    let pnlBorderLineWidth: CGFloat = 2
-    let pnlBaseHeight: CGFloat = 20
+    let gameGridPanel: CGSize = CGSize(width: 75, height: 75)
+    
+    init () {
+        
+        // Base class init
+        super.init(panel: gameGridPanel)
+        
+        // Layer
+        self.zPosition = 1
+        
+    }
+    
+    required init?(coder aDecoder: NSCoder) {
+        fatalError("init(coder:) has not been implemented")
+    }
     
 }

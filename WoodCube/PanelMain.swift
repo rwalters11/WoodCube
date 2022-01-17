@@ -11,15 +11,13 @@ import SpriteKit
 class MainPanel: Panel {
     
     // Constants
-    let pnlSize: CGFloat = 75
-    let pnlCornerRadius: CGFloat = 5
-    let pnlBorderLineWidth: CGFloat = 2
-    let pnlBaseHeight: CGFloat = 20
+    let mainPanel: CGSize = CGSize(width: 75, height: 75)
+
     
-    override init() {
+    init() {
         
         // Base class init
-        super.init()
+        super.init(panel: mainPanel)
         
         // Layer
         self.zPosition = 0
