@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D3042FE82791FE7D000FC99C /* BlockShapePreviewPanel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3042FE72791FE7D000FC99C /* BlockShapePreviewPanel.swift */; };
-		D3042FEA27920128000FC99C /* GameGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3042FE927920128000FC99C /* GameGrid.swift */; };
+		D3042FE82791FE7D000FC99C /* PanelBlockShapePreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3042FE72791FE7D000FC99C /* PanelBlockShapePreview.swift */; };
+		D3042FEA27920128000FC99C /* PanelGameGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3042FE927920128000FC99C /* PanelGameGrid.swift */; };
 		D30CF8C227905B2300BA0A48 /* 1Block.swift in Sources */ = {isa = PBXBuildFile; fileRef = D30CF8C127905B2300BA0A48 /* 1Block.swift */; };
 		D30CF8C427905B7600BA0A48 /* 2Block.swift in Sources */ = {isa = PBXBuildFile; fileRef = D30CF8C327905B7600BA0A48 /* 2Block.swift */; };
 		D30CF8C627905BC400BA0A48 /* L3Block.swift in Sources */ = {isa = PBXBuildFile; fileRef = D30CF8C527905BC400BA0A48 /* L3Block.swift */; };
@@ -27,11 +27,17 @@
 		D37602BE27889ABE00DD8EAC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D37602BC27889ABE00DD8EAC /* Main.storyboard */; };
 		D37602C027889AC000DD8EAC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D37602BF27889AC000DD8EAC /* Assets.xcassets */; };
 		D37602C327889AC000DD8EAC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D37602C127889AC000DD8EAC /* LaunchScreen.storyboard */; };
+		D38751E12794218800285CB6 /* PanelScore.swift in Sources */ = {isa = PBXBuildFile; fileRef = D38751E02794218800285CB6 /* PanelScore.swift */; };
+		D38751E3279421E400285CB6 /* PanelBestScore.swift in Sources */ = {isa = PBXBuildFile; fileRef = D38751E2279421E400285CB6 /* PanelBestScore.swift */; };
+		D38751E52794236500285CB6 /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = D38751E42794236500285CB6 /* Common.swift */; };
+		D38751E727942CE800285CB6 /* PanelMain.swift in Sources */ = {isa = PBXBuildFile; fileRef = D38751E627942CE800285CB6 /* PanelMain.swift */; };
+		D38751E927942FB800285CB6 /* BasePanel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D38751E827942FB800285CB6 /* BasePanel.swift */; };
+		D38751EB2794B26F00285CB6 /* Themes.swift in Sources */ = {isa = PBXBuildFile; fileRef = D38751EA2794B26F00285CB6 /* Themes.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		D3042FE72791FE7D000FC99C /* BlockShapePreviewPanel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlockShapePreviewPanel.swift; sourceTree = "<group>"; };
-		D3042FE927920128000FC99C /* GameGrid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameGrid.swift; sourceTree = "<group>"; };
+		D3042FE72791FE7D000FC99C /* PanelBlockShapePreview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PanelBlockShapePreview.swift; sourceTree = "<group>"; };
+		D3042FE927920128000FC99C /* PanelGameGrid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PanelGameGrid.swift; sourceTree = "<group>"; };
 		D30CF8C127905B2300BA0A48 /* 1Block.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1Block.swift; sourceTree = "<group>"; };
 		D30CF8C327905B7600BA0A48 /* 2Block.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 2Block.swift; sourceTree = "<group>"; };
 		D30CF8C527905BC400BA0A48 /* L3Block.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = L3Block.swift; sourceTree = "<group>"; };
@@ -51,6 +57,12 @@
 		D37602BD27889ABE00DD8EAC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D37602BF27889AC000DD8EAC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D37602C227889AC000DD8EAC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D38751E02794218800285CB6 /* PanelScore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PanelScore.swift; sourceTree = "<group>"; };
+		D38751E2279421E400285CB6 /* PanelBestScore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PanelBestScore.swift; sourceTree = "<group>"; };
+		D38751E42794236500285CB6 /* Common.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
+		D38751E627942CE800285CB6 /* PanelMain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PanelMain.swift; sourceTree = "<group>"; };
+		D38751E827942FB800285CB6 /* BasePanel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasePanel.swift; sourceTree = "<group>"; };
+		D38751EA2794B26F00285CB6 /* Themes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Themes.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,18 +103,24 @@
 				D37602B627889ABE00DD8EAC /* Actions.sks */,
 				D37602B227889ABE00DD8EAC /* AppDelegate.swift */,
 				D37602BF27889AC000DD8EAC /* Assets.xcassets */,
+				D38751E827942FB800285CB6 /* BasePanel.swift */,
 				D30CF8D12790703500BA0A48 /* Block.swift */,
 				D30CF8D32790769900BA0A48 /* Blocks.swift */,
+				D38751E42794236500285CB6 /* Common.swift */,
 				D30CF8CD27906D5500BA0A48 /* Cube4Block.swift */,
 				D30CF8CF27906D8700BA0A48 /* Cube9Block.swift */,
+				D3042FE927920128000FC99C /* PanelGameGrid.swift */,
 				D37602B827889ABE00DD8EAC /* GameScene.swift */,
 				D37602BA27889ABE00DD8EAC /* GameViewController.swift */,
 				D30CF8C527905BC400BA0A48 /* L3Block.swift */,
 				D30CF8C727906C6100BA0A48 /* L5Block.swift */,
 				D37602C127889AC000DD8EAC /* LaunchScreen.storyboard */,
 				D37602BC27889ABE00DD8EAC /* Main.storyboard */,
-				D3042FE72791FE7D000FC99C /* BlockShapePreviewPanel.swift */,
-				D3042FE927920128000FC99C /* GameGrid.swift */,
+				D38751E2279421E400285CB6 /* PanelBestScore.swift */,
+				D3042FE72791FE7D000FC99C /* PanelBlockShapePreview.swift */,
+				D38751E627942CE800285CB6 /* PanelMain.swift */,
+				D38751E02794218800285CB6 /* PanelScore.swift */,
+				D38751EA2794B26F00285CB6 /* Themes.swift */,
 			);
 			path = WoodCube;
 			sourceTree = "<group>";
@@ -179,20 +197,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D38751E12794218800285CB6 /* PanelScore.swift in Sources */,
 				D30CF8CA27906CA500BA0A48 /* 5Block.swift in Sources */,
 				D37602B927889ABE00DD8EAC /* GameScene.swift in Sources */,
+				D38751E727942CE800285CB6 /* PanelMain.swift in Sources */,
 				D30CF8D22790703500BA0A48 /* Block.swift in Sources */,
+				D38751EB2794B26F00285CB6 /* Themes.swift in Sources */,
 				D30CF8D027906D8700BA0A48 /* Cube9Block.swift in Sources */,
 				D30CF8C227905B2300BA0A48 /* 1Block.swift in Sources */,
 				D37602BB27889ABE00DD8EAC /* GameViewController.swift in Sources */,
-				D3042FE82791FE7D000FC99C /* BlockShapePreviewPanel.swift in Sources */,
+				D38751E927942FB800285CB6 /* BasePanel.swift in Sources */,
+				D3042FE82791FE7D000FC99C /* PanelBlockShapePreview.swift in Sources */,
 				D30CF8D42790769900BA0A48 /* Blocks.swift in Sources */,
 				D30CF8D627907F4A00BA0A48 /* 4Block.swift in Sources */,
-				D3042FEA27920128000FC99C /* GameGrid.swift in Sources */,
+				D3042FEA27920128000FC99C /* PanelGameGrid.swift in Sources */,
 				D30CF8CE27906D5500BA0A48 /* Cube4Block.swift in Sources */,
 				D30CF8CC27906CE600BA0A48 /* 3Block.swift in Sources */,
 				D30CF8C627905BC400BA0A48 /* L3Block.swift in Sources */,
 				D30CF8C827906C6100BA0A48 /* L5Block.swift in Sources */,
+				D38751E52794236500285CB6 /* Common.swift in Sources */,
+				D38751E3279421E400285CB6 /* PanelBestScore.swift in Sources */,
 				D30CF8C427905B7600BA0A48 /* 2Block.swift in Sources */,
 				D37602B327889ABE00DD8EAC /* AppDelegate.swift in Sources */,
 			);
@@ -363,7 +387,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -394,7 +418,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

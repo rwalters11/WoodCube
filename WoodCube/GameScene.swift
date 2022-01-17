@@ -15,14 +15,19 @@ class GameScene: SKScene {
         // Create and position background
         let background = SKSpriteNode(imageNamed: "background2")
 
-        //background.size = UIScreen.main.bounds.size
         background.position = CGPoint(x: size.width/2, y: size.height/2)
         background.anchorPoint = CGPoint(x: 0.5, y: 0.5)
         background.zPosition = -1
-        //background.scale(to: UIScreen.main.bounds.size)
         
         // Add background child node to scene
         addChild(background)
+        
+        // Create and position main panel
+        let mainPanel = MainPanel()
+        mainPanel.zPosition = 0
+        
+        addChild(mainPanel)
+
         
         // Create and display shape preview panels
         let previewPanelLeft = BlockShapePreviewPanel(position: .Left)

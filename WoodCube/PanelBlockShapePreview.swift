@@ -36,11 +36,8 @@ enum PanelPosition: Int, CustomStringConvertible {
     
 }
 
-// Get the screen dimensions
-let displaySize: CGRect  = UIScreen.main.bounds
-
 // Class defintion
-class BlockShapePreviewPanel: SKShapeNode {
+class BlockShapePreviewPanel: Panel {
     
     // Constants
     
@@ -48,22 +45,24 @@ class BlockShapePreviewPanel: SKShapeNode {
     let pnlSize: CGFloat = 75
     let pnlCornerRadius: CGFloat = 5
     let pnlBorderLineWidth: CGFloat = 2
-    var pnlSeparation: CGFloat
+    var pnlSeparation: CGFloat = 0
     let pnlBaseHeight: CGFloat = 20
     
     init (position: PanelPosition) {
         
         self.pnlPosition = position
-        self.pnlSeparation = (displaySize.width - (pnlSize * 3))/4
+       
     
         // Base class init
         super.init()
         
+        self.pnlSeparation = (common.displayWidth - (pnlSize * 3))/4
         self.path = UIBezierPath(roundedRect: CGRect(x: 0, y: 0, width: pnlSize, height: pnlSize), cornerRadius: pnlCornerRadius).cgPath
         self.fillColor = UIColor.red
-        self.strokeColor = UIColor.blue
+        self.strokeColor = UIColor.black
         self.lineWidth = pnlBorderLineWidth
-        self.zPosition = 0
+        // Layer
+        self.zPosition = 1
         
         positionPanel()
         
@@ -75,7 +74,7 @@ class BlockShapePreviewPanel: SKShapeNode {
     }
     
     // Function to return the position on screen to place the panel
-    func positionPanel() {
+    override func positionPanel() {
         
         // Get the width of the ShapeNode
         let panelWidth: CGFloat = self.frame.width

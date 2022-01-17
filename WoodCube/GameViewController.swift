@@ -15,6 +15,9 @@ class GameViewController: UIViewController {
         
         super.viewDidLoad()
         
+        // Instantiate the common library
+        let common = Common()
+        
         // Configure the view.
         
         let skView = view as! SKView
@@ -27,7 +30,7 @@ class GameViewController: UIViewController {
         
         
         // Create and configure the background scene.
-        let scene = GameScene(size: UIScreen.main.bounds.size)
+        let scene = GameScene(size: common.displaySize)
         scene.scaleMode = .aspectFill
         
         // Present the scene.
@@ -36,11 +39,12 @@ class GameViewController: UIViewController {
         
     }
 
-
-
-
-
     override var prefersStatusBarHidden: Bool {
         return true
+    }
+    
+    func loadThemes() {
+        
+        
     }
 }
